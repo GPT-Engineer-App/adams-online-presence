@@ -3,7 +3,7 @@ import { FaGithub, FaTwitter, FaLinkedin, FaEnvelope, FaPhone } from "react-icon
 function App() {
   return (
     <div className="min-h-screen bg-gray-100">
-      <header className="bg-gradient-to-r from-indigo-500 to-purple-500 shadow">
+      <header className="bg-gradient-to-r from-pink-500 via-red-400 to-yellow-500 shadow">
         <div className="container mx-auto px-6 py-8">
           <h1 className="text-5xl font-bold text-white tracking-wide">John Adams</h1>
           <p className="text-yellow-200 text-xl tracking-wide">Web Developer & Designer</p>
@@ -49,13 +49,13 @@ function App() {
           <p className="text-navy-600 text-xl mb-6">Get in touch with me:</p>
           <ul className="space-y-4 text-xl">
             <li className="flex items-center">
-              <FaEnvelope className="text-gold-500 mr-2" />
+              <FaEnvelope className="text-pink-400 mr-2 animate-bounce" />
               <a href="mailto:john@example.com" className="text-navy-600 hover:text-navy-800 transition duration-300">
                 john@example.com
               </a>
             </li>
             <li className="flex items-center">
-              <FaPhone className="text-gold-500 mr-2" />
+              <FaPhone className="text-green-400 mr-2 animate-pulse" />
               <a href="tel:123-456-7890" className="text-navy-600 hover:text-navy-800 transition duration-300">
                 123-456-7890
               </a>
@@ -64,18 +64,18 @@ function App() {
         </section>
       </main>
 
-      <footer className="bg-gradient-to-r from-indigo-500 to-purple-500 shadow-lg mt-16">
+      <footer className="bg-gradient-to-r from-pink-500 via-red-400 to-yellow-500 shadow-lg mt-16">
         <div className="container mx-auto px-8 py-8 flex justify-between items-center">
           <p className="text-yellow-200 text-xl tracking-wide">&copy; 2023 John Adams. All rights reserved.</p>
           <div className="flex space-x-6">
             <a href="https://github.com/johnadams" target="_blank" rel="noopener noreferrer">
-              <FaGithub className="text-3xl text-gold-300 hover:text-gold-400 transition duration-300" />
+              <FaGithub className="text-3xl text-purple-300 hover:text-purple-400 transition duration-300" />
             </a>
             <a href="https://twitter.com/johnadams" target="_blank" rel="noopener noreferrer">
-              <FaTwitter className="text-3xl text-gold-300 hover:text-gold-400 transition duration-300" />
+              <FaTwitter className="text-3xl text-blue-300 hover:text-blue-400 transition duration-300" />
             </a>
             <a href="https://linkedin.com/in/johnadams" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin className="text-3xl text-gold-300 hover:text-gold-400 transition duration-300" />
+              <FaLinkedin className="text-3xl text-teal-300 hover:text-teal-400 transition duration-300" />
             </a>
           </div>
         </div>
